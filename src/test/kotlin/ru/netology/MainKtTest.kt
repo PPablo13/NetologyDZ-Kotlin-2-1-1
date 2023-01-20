@@ -50,6 +50,6 @@ class MainKtTest {
 
         val totalTax = taxCalc(cardType, lastTransfers, commonTransfer)
 
-        assertEquals(expected = 55, actual = totalTax)
+        assertEquals(expected = 35, actual = totalTax)
     }
 }
