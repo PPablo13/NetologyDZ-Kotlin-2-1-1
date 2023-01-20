@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.MainKtTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-01-19T18:52:01" hostname="NIGASLAV" time="0.046">
+<testsuite name="ru.netology.MainKtTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-01-20T16:33:22" hostname="NIGASLAV" time="0.051">
   <properties/>
-  <testcase name="taxCalcIfMC" classname="ru.netology.MainKtTest" time="0.046"/>
+  <testcase name="taxCalcIfMC" classname="ru.netology.MainKtTest" time="0.05"/>
   <testcase name="taxCalcIfVK" classname="ru.netology.MainKtTest" time="0.0"/>
-  <testcase name="taxCalcIfVisa" classname="ru.netology.MainKtTest" time="0.0"/>
+  <testcase name="taxCalcIfVisa" classname="ru.netology.MainKtTest" time="0.001"/>
+  <testcase name="taxCalcIfMirMinTax" classname="ru.netology.MainKtTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

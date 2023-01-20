@@ -26,7 +26,7 @@ class MainKtTest {
 
         val totalTax = taxCalc(cardType, lastTransfers, commonTransfer)
 
-        assertEquals(expected = 1111, actual = totalTax)
+        assertEquals(expected = 4820, actual = totalTax)
     }
 
     @Test
@@ -39,5 +39,17 @@ class MainKtTest {
         val totalTax = taxCalc(cardType, lastTransfers, commonTransfer)
 
         assertEquals(expected = 0, actual = totalTax)
+    }
+
+    @Test
+    fun taxCalcIfMirMinTax() {
+
+        val cardType = "Мир"
+        val lastTransfers = 4000
+        val commonTransfer = 100
+
+        val totalTax = taxCalc(cardType, lastTransfers, commonTransfer)
+
+        assertEquals(expected = 35, actual = totalTax)
     }
 }
